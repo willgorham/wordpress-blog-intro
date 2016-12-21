@@ -1,0 +1,38 @@
+{
+  "name": "willgorham/blog-intro",
+  "description": "Add a blog introduction using the built-in WordPress editor",
+  "type": "project",
+  "keywords": ["wordpress", "wp", "plugin"],
+  "homepage": "https://willgorham.com",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Will Gorham",
+      "email": "willgorham@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "raveren/kint": "~1.0",
+    "filp/whoops": "~2.1"
+  },
+  "autoload": {
+    "classmap": [],
+    "files": [
+      "src/controller.php",
+      "src/admin/enable-editor.php"
+    ]
+  },
+  "autoload-dev": {
+    "classmap": [],
+    "files": [
+      "src/support/exceptions.php"
+    ]
+  },
+  "config": {
+    "vendor-dir": "assets/vendor"
+  },
+  "minimum-stability": "dev"
+}
