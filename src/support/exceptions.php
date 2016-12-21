@@ -4,7 +4,7 @@
  *
  */
 
-namespace KnowTheCode;
+namespace BlogIntro;
 
 use Whoops\Handler\PrettyPageHandler;
 use Whoops\Run;
