@@ -1,3 +1,5 @@
+*** NOTE *** This plugin ONLY works with a customized child theme. Installing on a vanilla WordPress install will not work.
+
 # Blog Intro
 
 This plugin was initially created for the [Insert Content from Editor into Blog Page](https://knowthecode.io/labs/insert-content-editor-blog-page) Lab on [KnowTheCode.io](https://KnowTheCode.io).
