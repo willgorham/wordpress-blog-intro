@@ -30,9 +30,10 @@ function render_content() {
     return;
   }
 
-  $contents = prepare_contents_for_rendering( $posts_page );
+  $content = prepare_contents_for_rendering( $posts_page );
+  $title = esc_html( $posts_page->post_title );
 
-  echo $contents;
+  include( 'views/contents.php' );
 }
 
 
